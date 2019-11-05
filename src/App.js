@@ -3,16 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import api from './api';
 
-// export const fetchPosts = () => {
-//   return async dispatch => {
-//       const {data} = await jsonPlaceHolder.get('/posts');
-//       dispatch({
-//           type: 'FETCH_POSTS',
-//           payload: data
-//       });
-//   };
-// }; 
-
 function App() {
   const getCountries = async () => {
     const  {data} = await api.get('/api/data/countries')

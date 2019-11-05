@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-    baseURL: 'https://devapi.fastpayhotels.net'
+    baseURL: 'https://api.fastpayhotels.net'
 });
